@@ -14,3 +14,11 @@ public class Day6{
     
     }
 }
+
+
+
+
+
+
+
+//#milik Krieldi
