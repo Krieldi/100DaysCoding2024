@@ -12,7 +12,7 @@ public class Soal2 {
         int a= i.nextInt();
         System.out.print("Masukkan jumlah pohon perbulan: ");
         int b=i.nextInt();
-        int jumlah= a+b;
-        System.out.println("Jadi, setelah sebulan total pohon yang ada adalah "+jumlah);
+        b += a;
+        System.out.println("Jadi, setelah sebulan total pohon yang ada adalah "+b);
     }
 }
