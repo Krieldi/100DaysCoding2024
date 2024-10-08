@@ -12,7 +12,7 @@ public class Soal3 {
         int a= i.nextInt();
         System.out.print("Masukkan jumlah barang yang di jual perminggu: ");
         int b=i.nextInt();
-        int sisa= a-b;
-        System.out.println("Jadi, setelah seminggu sisa barang yang ada adalah "+sisa);
+        b -= a;
+        System.out.println("Jadi, setelah seminggu sisa barang yang ada adalah "+b);
     }
 }
