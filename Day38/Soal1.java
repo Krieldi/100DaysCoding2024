@@ -2,7 +2,7 @@ package ISC;
 
 import java.util.Scanner;
 
-public class Day38 {
+public class Soal1 {
     
     public static void main(String[] args) {
         //soal pengisian dan perkalian
