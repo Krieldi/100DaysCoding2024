@@ -7,7 +7,7 @@ public class Day44 {
         System.out.print("Masukkan Umur Anda: ");
         int a= in.nextInt();
         
-        if (a>= 17){
+        if (a>= 17&&a<= 100){
             System.out.println("Anda sudah punya KTP");
         }else{
             System.out.println("Anda belum cukup umur cil!! ");
