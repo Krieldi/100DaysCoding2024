@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Day67 {
 
     public static void main(String[] args) {
+        Day67 Kelazz = new Day67();
         Scanner in = new Scanner(System.in);
         System.out.print("Masukkan angka pertama: ");
         int a = in.nextInt();
@@ -14,21 +15,27 @@ public class Day67 {
         System.out.println("1. Penjumlahan");
         System.out.println("2. Pengurangan");
         String c = in.next();
+        Kelazz.calculate(a, b, c);
+    }
 
-        if (c.equals("1") || c.equalsIgnoreCase("penjumlahan")) {
-            tambah(a, b);
-        } else if (c.equals("2") || c.equalsIgnoreCase("pengurangan")) {
-            kurang(a, b);
+    public void calculate(int a, int n, String operator) {
+        int result;
+
+        switch (operator) {
+            case "1":
+            case "Penjumlahan":
+                result = a + n;
+                System.out.println("Hasil : " + result);
+                break;
+            case "2":
+            case "Pengurangan":
+                result = a - n;
+                System.out.println("hasil : " + result);
+                break;
+            default:
+                System.out.println("Operator tidak valid.");
+                break;
         }
     }
 
-    public static void tambah(int a, int b) {
-        int hasil = a + b;
-        System.out.println("Hasilnya adalah: " + hasil);
-    }
-
-    public static void kurang(int a, int b) {
-        int hasil = a - b;
-        System.out.println("Hasilnya adalah: " + hasil);
-    }
 }
