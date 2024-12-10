@@ -20,7 +20,7 @@ public class Day100 {
         }
         System.out.println("══════════════════════════════════════════");
         System.out.printf("      %s %s%n", b, a);
-        System.out.println("    Program Anda Telah Selesai         ");
+        System.out.println("      Program Anda Telah Selesai         ");
         System.out.println("══════════════════════════════════════════");
         in.close();
     }
